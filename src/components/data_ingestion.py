@@ -51,6 +51,7 @@ if __name__=='__main__':
     train, test, _ = data_transformation.initiate_data_transformation(train_data, test_data)
 
     modeltrainer = model_trainer()
+    print("\nr2_score:")
     print(modeltrainer.initiate_model_trainer(train, test))
 
 
